@@ -1,0 +1,101 @@
+a {
+    text-decoration-line: none;
+}
+body {
+    padding: 160px 0px 100px 300px;
+    background-color: rgb(207, 233, 245);
+}
+.full {
+    transform: scale(1.2);
+}
+.loginform {
+    box-shadow: .1px .1px 10px rgb(173, 173, 173);
+    width: 280px;
+    border-radius: 7px;
+    padding: 10px 20px 20px 10px;
+    float: left;
+}
+.text {
+    float: left;
+}
+.password,.email {
+    height: 35px;
+    width: 100%;
+    border: 1px solid rgb(207, 205, 205);
+    border-radius: 7px;
+    padding-left: 8px;
+}
+.password:focus,.email:focus {
+    border: 1px solid blue;
+}
+.password::placeholder:focus,.email::placeholder:focus {
+    color: rgb(167, 164, 164);
+}
+input::placeholder {
+    color: rgb(182, 178, 178);
+}
+hr {
+    border: 0.1px solid rgb(221, 220, 220);
+}
+input {
+    margin-bottom: 10px;
+}
+.forget {
+   text-align: center;
+   font-weight: 100;
+}
+.forgot {
+    color: rgb(119, 179, 202);
+}
+.forgot:hover {
+    text-decoration-line: underline;
+}
+.forgot:visited {
+    color: skyblue;
+} 
+.submit {
+    width: 100%;
+    height: 40px;
+    background-color: #1877f2;
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+    cursor: pointer;
+}
+.submit:hover {
+    background-color: #125dbe;
+    transition: .3s;
+}
+.newaccount {
+    width: 60%;
+    height: 40px;
+    background-color: rgb(2, 187, 2);
+    border: 0;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+    transition: .3s;
+    cursor: pointer;
+}
+.newaccount:hover {
+    background-color: rgb(5, 161, 5);
+    transition: .3s;
+}
+.account {
+    text-align: center;
+}
+p.child {
+    width: 500px;
+    font-size: 24px;
+}
+h1 {
+    color: #1877f2;
+    margin-bottom: -20px;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
